@@ -1,0 +1,2515 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="generator" content="">
+          <title>004873007002900120012046</title>
+
+            <!-- Bootstrap -->
+            <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+            <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+           
+
+
+            <!--MDBootstrap5-->
+            <!-- Font Awesome -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+            <!-- Google Fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+            <!-- MDB -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
+            <!-- MDB -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"> </script>
+
+
+
+                  <style>
+                    .bd-placeholder-img {
+                      font-size: 1.125rem;
+                      text-anchor: middle;
+                      -webkit-user-select: none;
+                      -moz-user-select: none;
+                      user-select: none;
+                    }
+              
+                    @media (min-width: 768px) {
+                      .bd-placeholder-img-lg {
+                        font-size: 3.5rem;
+                      }
+                    }
+              
+                    .b-example-divider {
+                      height: 3rem;
+                      background-color: rgba(0, 0, 0, .1);
+                      border: solid rgba(0, 0, 0, .15);
+                      border-width: 1px 0;
+                      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+                    }
+              
+                    .b-example-vr {
+                      flex-shrink: 0;
+                      width: 1.5rem;
+                      height: 100vh;
+                    }
+              
+                    .bi {
+                      vertical-align: -.125em;
+                      fill: currentColor;
+                    }
+              
+                    .nav-scroller {
+                      position: relative;
+                      z-index: 2;
+                      height: 2.75rem;
+                      overflow-y: hidden;
+                    }
+              
+                    .nav-scroller .nav {
+                      display: flex;
+                      flex-wrap: nowrap;
+                      padding-bottom: 1rem;
+                      margin-top: -1px;
+                      overflow-x: auto;
+                      text-align: center;
+                      white-space: nowrap;
+                      -webkit-overflow-scrolling: touch;
+                    }
+                    
+                    .modal {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    
+
+                    .modal1 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal1-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close1 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close1:hover,
+                    .close1:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+                    
+                    .modal2 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal2-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close2 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close2:hover,
+                    .close2:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                     .modal3 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal3-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close3 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close3:hover,
+                    .close3:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    /* The Close Button */
+                    .close {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close:hover,
+                    .close:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .close1 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close1:hover,
+                    .close1:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .close2 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close2:hover,
+                    .close2:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .close3 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close3:hover,
+                    .close3:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal4 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal4-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    /* Caption of Modal Image */
+                    #caption {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                      text-align: center;
+                      color: #ccc;
+                      padding: 10px 0;
+                      height: 150px;
+                    }
+
+                    /* Add Animation */
+                    .modal4-content, #caption {  
+                      -webkit-animation-name: zoom;
+                      -webkit-animation-duration: 0.6s;
+                      animation-name: zoom;
+                      animation-duration: 0.6s;
+                    }
+
+                    @-webkit-keyframes zoom {
+                      from {-webkit-transform:scale(0)} 
+                      to {-webkit-transform:scale(1)}
+                    }
+
+                    @keyframes zoom {
+                      from {transform:scale(0)} 
+                      to {transform:scale(1)}
+                    }
+
+                    /* The Close Button */
+                    .close4 {
+                      position: absolute;
+                      top: 15px;
+                      right: 35px;
+                      color: #f1f1f1;
+                      font-size: 40px;
+                      font-weight: bold;
+                      transition: 0.3s;
+                    }
+
+                    .close4:hover,
+                    .close4:focus {
+                      color: #bbb;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    /* 100% Image Width on Smaller Screens */
+                    @media only screen and (max-width: 700px){
+                      .modal4-content {
+                        width: 100%;
+                      }
+                    }
+
+                    .modal5 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal5-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close5 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close5:hover,
+                    .close5:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal6 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal6-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close6 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close6:hover,
+                    .close6:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal7 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal7-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close7 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close7:hover,
+                    .close7:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal8 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal8-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close8 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close8:hover,
+                    .close8:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal9 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal9-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close9 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close9:hover,
+                    .close9:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    /* 100% Image Width on Smaller Screens */
+                    @media only screen and (max-width: 700px){
+                      .modal9-content {
+                        width: 100%;
+                      }
+                    }
+                    /*
+                    .formulaModal {
+                      display: none; 
+                      position: fixed; 
+                      z-index: 1; 
+                      padding-top: 100px; 
+                      left: 0;
+                      top: 0;
+                      width: 100%; 
+                      height: 100%; 
+                      overflow: auto; 
+                      background-color: rgb(0,0,0); 
+                      background-color: rgba(0,0,0,0.9); 
+                    }
+
+                    
+                    .formulaModal-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .closeFormula {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .closeFormula:hover,
+                    .closeFormula:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+                  */
+                  .modal10 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal10-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close10 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close10:hover,
+                    .close10:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+
+                    .modal30 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal30-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close30 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close30:hover,
+                    .close30:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal11 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal11-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close11 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close11:hover,
+                    .close11:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal12 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal12-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close12 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close12:hover,
+                    .close12:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal13 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal13-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close13 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close13:hover,
+                    .close13:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal31 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal31-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close31 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close31:hover,
+                    .close31:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal32 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal32-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close32 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close32:hover,
+                    .close32:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal33 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal33-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close33 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close33:hover,
+                    .close33:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal34 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal34-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close34 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close34:hover,
+                    .close34:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+
+                  </style>
+
+            <link href="cover.css" rel="stylessheet">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+     </head>
+     <body class="d-flex h-100 text-center text-bg-dark">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="SMART-1.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-stripe" viewBox="0 0 16 16">
+                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm6.226 5.385c-.584 0-.937.164-.937.593 0 .468.607.674 1.36.93 1.228.415 2.844.963 2.851 2.993C11.5 11.868 9.924 13 7.63 13a7.662 7.662 0 0 1-3.009-.626V9.758c.926.506 2.095.88 3.01.88.617 0 1.058-.165 1.058-.671 0-.518-.658-.755-1.453-1.041C6.026 8.49 4.5 7.94 4.5 6.11 4.5 4.165 5.988 3 8.226 3a7.29 7.29 0 0 1 2.734.505v2.583c-.838-.45-1.896-.703-2.734-.703Z"/>
+                    </svg>
+                  <span class="float-md-start mb-0"> SMART</span>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+              
+                </a>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link fw-bold py-1 link-light" aria-current="page">Home</a></li>
+                    <li><a href="features.html" class="nav-link fw-bold py-1 link-light" padding-left: 20px;
+                        padding-right: 20px;> Features</a></li>
+                    <li><a href="about.html" class="nav-link fw-bold py-1 link-light"> About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold py-1 link-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          more features
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="planned.html">Planned Trip</a></li>
+                          <li><a class="dropdown-item" href="sub.html">Subscription</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+              
+                  </ul>
+                  
+                </nav>
+              </header>
+        
+      
+        <div class="px-3">
+            <div id="ug">
+            <h1>Trip Planner</h1>
+            </div>
+            <form>
+              <p class="lead"><label for="dropdown">Select an option:</label></p>
+              <br />
+              <select id="dropdown" onchange="handleDropdownChange(event)">
+                <option value="">--Select an option--</option>
+                <option value="Custom 1">Custom</option>
+                <option value="Custom 2">Johor-to-KL</option>
+                <option value="Custom 3">KL-to-Penang</option>
+              </select>
+            </form>
+            <div id="custom1" style="display: none">
+              <br>
+              <div id="cunt">
+              <h1>Electric Car Trip Calculator</h1>
+              </div>
+
+              <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                       
+                      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14FVWFXGZ3b1vpkNyg-zIZl2MMbOigNQ&z=6&ehbc=2E312F" width="840" height="680"></iframe>
+                    </div>
+        
+                    <div class="col-sm-3">
+                      <p>Enter the distance of your trip in kilometers:</p>
+                      <input id="distance" type="text" value="0">
+                      <br>
+                      <!-- https://ev-database.org/cheatsheet/useable-battery-capacity-electric-car -->
+                      <p id = result >Enter your vehicle:</p>
+                          <select id="range_speed">
+                          <option value="71.0,173">Porsche Taycan[71.0kWh,173Wh/km]</option>
+                          <option value="57.5,151">Tesla Model 3[57.5kWh,151Wh/km]</option>
+                          <option value="59.0,174">Nissan Leaf e+ [59.0kWh,174Wh/km]</option>
+                          </select>
+                  
+                      <br>
+                      <p>Enter the current battery percentage:</p>
+                      <input id="battery_percentage" type="text" value="0">
+                      <br> 
+                      <p>Enter the average speed:</p>
+                      <input id="speed" type="text" value="110">
+                      <br>
+                      <!-- https://soyacincau.com/2022/12/02/ev-dc-fast-charging-in-malaysia-gentari-kwh-vs-time-based-charging-which-is-cheaper/ -->
+                      <p>Enter the charging option:</p>
+                          <select id="chargingOption">
+                          <option value="180kWh">180kWh[RM3.60]</option>
+                          <option value="60kWh">60kWh[RM1.40]</option>
+                          </select>
+                  
+                      <br>
+                      <p>Enter the charging time of your car in minutes:</p>
+                      <input id="charge_time" type="text" value="0">
+                      <!-- <br>
+                      <p>Enter the weather condition of your trip:</p>
+                          <select id="weather">
+                          <option value="sunny">Sunny</option>
+                          <option value="cloudy">Cloudy</option>
+                          <option value="rainy">Rainy</option>
+                          </select> -->
+                  
+                      <!-- <br>
+                      <p>Enter the peak hour of your trip:</p>
+                      <input id="peak_hour" type="text" value="0">
+                      <br>
+                      <p>Enter the offpeak hour of your trip:</p>
+                      <input id="offpeak_hour" type="text" value="0">
+                      <br> -->
+                      <br>
+                      <button onclick="calculate()">Calculate Trip Time and Charging Stops</button>
+                      <br>
+                      <br>
+                  
+                      <p>Trip time: <span id="trip_time"></span></p>
+                      <p>Number of charging stops: <span id="num_stops"></span></p>
+                      <p>Cost of charging: <span id="cost"></span></p>
+
+                      <p><button onclick="saveResults(); location.href='planned.html';">Save Results</button></p> 
+                    
+                    <script>
+                                          
+                      // tariffs data
+                      var tariffs = {
+                          domestic: {
+                              first200: 21.8,
+                              next100: 33.4,
+                              next300: 51.6,
+                              next300: 54.6,
+                              nextkWh: 57.1,
+                          }
+                      }
+                      // cost data for different charging options
+                      var costData = {
+                          fastCharging: {
+                              offPeak: 0.20,
+                              peak: 0.30
+                          },
+                          level2Charging: {
+                              offPeak: 0.15,
+                              peak: 0.25
+                          }
+                      };
+                      // range data for different range and wheater
+              //        <!-- 
+            //rangeData = {
+                          //speed: {
+                              //50: 200,
+                              //75: 150,
+                             // 100: 100
+                         // },
+                          //weather: {
+                             // sunny: 5,
+                              //cloudy: -2,
+                             // rainy: -10
+                         // }
+          
+                      // };
+          //-->
+                      // function to calculate and display results
+                      function calculate() {
+                          // Get input values
+                          var distance = document.getElementById("distance").value;
+                          var range_speed = document.getElementById("range_speed").value;
+                          var range_speed_array = range_speed.split(",");
+                          var range = range_speed_array[0];
+                          var WhPerKM = range_speed_array[1];
+                          //average Speed
+                          var avgSpeed = document.getElementById("speed").value;
+                          // var speedRange = rangeData.speed[speed];
+                          // var weatherRange = rangeData.weather[weather];
+                          // var expectedRange = speedRange + weatherRange;
+                          var battery_percentage = document.getElementById("battery_percentage").value;
+                          var charge_time = document.getElementById("charge_time").value;
+                          var chargingOption = document.getElementById("chargingOption").value;
+                          //var peak_hour = document.getElementById("peak_hour").value;
+                          //var weather = document.getElementById("weather").value;
+                          // validate inputs
+                          if (distance <= 0 || avgSpeed <= 0 || range <= 0 || battery_percentage <= 0 || charge_time <= 0) {
+                              alert("Invalid input. Please enter positive numbers.");
+                              return;
+                          }
+                          // Calculate trip time
+                          var trip_time = distance / avgSpeed;
+                          // Calculate the current battery range
+                          var current_range = range * WhPerKM * (battery_percentage / 100);
+                          // Calculate number of charging stops
+                          var num_stops = Math.ceil(distance / current_range);
+                          // Calculate total time including charging stops
+                          var total_time = trip_time + (num_stops * charge_time / 60);
+                          var hours = Math.floor(total_time);
+                          var minutes = Math.round((total_time - hours) * 60);
+                          total_time = hours + " hours " + minutes + " minutes";
+                          // Calculate cost of the trip
+                          var cost = 0;
+                          //TAK FAHAM what is this, so expensive charge
+                          // if (distance <=200) {
+                          //     cost = distance * tariffs.domestic.first200;
+                          // } else if (distance >200 && distance <=300) {
+                          //     cost = 200 * tariffs.domestic.first200 + (distance-200) * tariffs.domestic.next100;
+                          // } else if (distance >300 && distance <=600) {
+                          //     cost = 200 * tariffs.domestic.first200 + 100 * tariffs.domestic.next100 + (distance-300) * tariffs.domestic.next300;
+                          // } 
+                          // and so on for other tariff categories
+                          // add surcharge for peak hour
+                          // if (peak_hour === "peak") {
+                          //     cost = cost * 1.1;
+                          // }
+
+                          //charging fee
+                          if (chargingOption === "180kWh") {
+                              cost += charge_time*3.6;//from the link of the selection
+                          }else if (chargingOption === "60kWh") {
+                              cost += charge_time*1.4;//from the link of the selection
+                          }
+
+                          
+                          // add surcharge for bad weather
+                          // if (weather === "bad") {
+                          //     cost += 0.05;
+                          // }
+                          // Display results
+                          document.getElementById("trip_time").innerHTML = total_time;
+                          document.getElementById("num_stops").innerHTML = num_stops;
+                          document.getElementById("cost").innerHTML = "RM "+ cost;
+                          //document.getElementById("range").innerHTML = expectedRange + " km";
+                          // Save results to localStorage
+                          
+                          localStorage.setItem("range_speed", range_speed);
+                          localStorage.setItem("distance", distance);
+                          localStorage.setItem("tripTime", total_time);
+                          localStorage.setItem("numStops", num_stops);
+                          localStorage.setItem("cost", cost);
+                          //localStorage.setItem("range", expectedRange);
+                      }
+                                          
+                      </script>
+                    
+                    <script>
+                      
+                      
+                        function saveResults() {
+                        // Get input values
+                          var distance = document.getElementById("distance").value;
+                          var range_speed = document.getElementById("range_speed").value;
+                          var range_speed_array = range_speed.split(",");
+                          var range = range_speed_array[0];
+                          var WhPerKM = range_speed_array[1];
+                          //average Speed
+                          var avgSpeed = document.getElementById("speed").value;
+                          // var speedRange = rangeData.speed[speed];
+                          // var weatherRange = rangeData.weather[weather];
+                          // var expectedRange = speedRange + weatherRange;
+                          var battery_percentage = document.getElementById("battery_percentage").value;
+                          var charge_time = document.getElementById("charge_time").value;
+                          var chargingOption = document.getElementById("chargingOption").value;
+                          //var peak_hour = document.getElementById("peak_hour").value;
+                          //var weather = document.getElementById("weather").value;
+                          // validate inputs
+                          if (distance <= 0 || avgSpeed <= 0 || range <= 0 || battery_percentage <= 0 || charge_time <= 0) {
+                              alert("Invalid input. Please enter positive numbers.");
+                              return;
+                          }
+                          // Calculate trip time
+                          var trip_time = distance / avgSpeed;
+                          // Calculate the current battery range
+                          var current_range = range * WhPerKM * (battery_percentage / 100);
+                          // Calculate number of charging stops
+                          var num_stops = Math.ceil(distance / current_range);
+                          // Calculate total time including charging stops
+                          var total_time = trip_time + (num_stops * charge_time / 60);
+                          var hours = Math.floor(total_time);
+                          var minutes = Math.round((total_time - hours) * 60);
+                          total_time = hours + " hours " + minutes + " minutes";
+                          // Calculate cost of the trip
+                          var cost = 0;
+                          //TAK FAHAM what is this, so expensive charge
+                          // if (distance <=200) {
+                          //     cost = distance * tariffs.domestic.first200;
+                          // } else if (distance >200 && distance <=300) {
+                          //     cost = 200 * tariffs.domestic.first200 + (distance-200) * tariffs.domestic.next100;
+                          // } else if (distance >300 && distance <=600) {
+                          //     cost = 200 * tariffs.domestic.first200 + 100 * tariffs.domestic.next100 + (distance-300) * tariffs.domestic.next300;
+                          // } 
+                          // and so on for other tariff categories
+                          // add surcharge for peak hour
+                          // if (peak_hour === "peak") {
+                          //     cost = cost * 1.1;
+                          // }
+
+                          //charging fee
+                          if (chargingOption === "180kWh") {
+                              cost += charge_time*3.6;//from the link of the selection
+                          }else if (chargingOption === "60kWh") {
+                              cost += charge_time*1.4;//from the link of the selection
+                          }
+
+                          
+                          // add surcharge for bad weather
+                          // if (weather === "bad") {
+                          //     cost += 0.05;
+                          // }
+  
+                          // Save results to localStorage
+                          
+                          localStorage.setItem("distance", distance);
+                          localStorage.setItem("tripTime", total_time);
+                          localStorage.setItem("numStops", num_stops);
+                          localStorage.setItem("cost", cost);
+                      }
+                     
+                      </script>
+                    </div>
+            
+                  </div>
+                </div>
+                </div>
+                
+                <br>
+                    <div id="custom2" style="display: none">
+                      <div id="dead">
+                      <h1>Recommendation path ways</h1>
+                      </div>
+                      <p class="lead">
+                        The optimized path way for your little trip
+                      </p><br>
+                        <div class="row">
+                          <div class="col-sm-9">
+                            <div class="ratio ratio-16x9">
+                              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Klj5o7KdOqeLq04S8OkgDati1Ek0pj8&z=7&ehbc=2E312F" width="980" height="550"></iframe>
+                            </div>
+                          </div>
+                          <div class="col-sm-3">
+                            <div class="form-control border-dark" style="position:relative;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);">
+                              <p class="lead">
+                                <div id="trip">
+                                  <h6>Trip : Johor to KL</h6><br>
+                                </div>
+                                <div id="dis">
+                                  <h6>Estimated Time : 3hr 47min</h6><br>
+                                </div>
+                                <div id="dis1">
+                                  <h6>Estimated travel distance : 336.5km</h6><br>
+                                </div>
+                                <div id="car">
+                                <h6>Vehicle Type: Hyundai IONIQ Electric</h6><br>
+                                </div>
+                                <h6>Connnector Type : Type 2 / CCS/SAE</h6><br>
+                                <div id="cs">
+                                  <h6>Charging Stations available</h6><br>
+                                </div>
+                                  <div id="cs1">
+                                      <h6>Recommended charging first&nbsp;
+                                      <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-half" viewBox="0 0 16 16">
+                                      <path d="M2 6h5v4H2V6z"/>
+                                      <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z"/>
+                                      </svg>
+                                      </h6><br>
+                                  </div>
+                                  <div id="f1">
+                                    <h6>Formula &nbsp; <button type="button" class="btn btn-circle" data-toggle="modal" data-target="#formulaModal">?</button></h6>
+                                  </div>
+                                </p>
+                                
+                                
+                                   
+                                  
+                            </div>
+                          </div>                                
+                              
+                        </div>
+                    </div>
+                    </div>
+        
+                    <div id="custom3" style="display: none">
+                      <div id="dead2">
+                      <h1>Recommendation path ways</h1>
+                      </div>
+                      <p class="lead">
+                        The optimized path way for your little trip
+                      </p><br>
+                        <div class="row">
+                          <div class="col-sm-9">
+                            <div class="ratio ratio-16x9">
+                              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1AwFJfW1Hiui_fb2pLFYLOKiYJqjleDc&z=7&ehbc=2E312F" width="640" height="480"></iframe>
+                            </div>
+                          </div>
+                          <div class="col-sm-3">
+                            <div class="form-control border-dark" style="position:relative;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);">
+                              <div class="lead">
+                                <div id="trip2">
+                                  <h6>Trip : KL to Penang</h6><br>
+                                </div>
+                                <div id="dis2">
+                                  <h6>Estimated Time : 4hr 42min</h6><br>
+                                </div>
+                                <div id="dis3">
+                                  <h6>Estimated travel distance : 357km</h6><br>
+                                </div>
+                                <div id="car2">
+                                  <h6>Vehicle Type: Hyundai IONIQ Electric</h6><br>
+                                </div>
+                                  <h6>Connnector Type : Type 2 / CCS/SAE</h6><br>
+                                <div id="cs2">
+                                  <h6>Charging Stations</h6><br>
+                                </div>
+                                <div id="cs3">
+                                  <h6>Recommended charging first&nbsp;
+                                  <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-half" viewBox="0 0 16 16">
+                                  <path d="M2 6h5v4H2V6z"/>
+                                  <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z"/>
+                                  </svg>
+                                </h6><br>
+                                </div>
+                                <div id="f2">
+                                  <h6>Formula &nbsp; <button type="button" class="btn btn-circle" data-toggle="modal" data-target="#formulaModal">?</button></h6>
+                                </div>
+                              
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+            
+            <script>
+              function handleDropdownChange(event) {
+                var selectedOption = event.target.value;
+                if (selectedOption === 'Custom 1') {
+                  document.getElementById('custom1').style.display = 'block';
+                  document.getElementById('custom2').style.display = 'none';
+                  document.getElementById('custom3').style.display = 'none';
+                } else if (selectedOption === 'Custom 2') {
+                  document.getElementById('custom1').style.display = 'none';
+                  document.getElementById('custom2').style.display = 'block';
+                  document.getElementById('custom3').style.display = 'none';
+                } else if (selectedOption === 'Custom 3') {
+                  document.getElementById('custom1').style.display = 'none';
+                  document.getElementById('custom2').style.display = 'none';
+                  document.getElementById('custom3').style.display = 'block';
+                } else {
+                  document.getElementById('custom1').style.display = 'none';
+                  document.getElementById('custom2').style.display = 'none';
+                  document.getElementById('custom3').style.display = 'none';
+                }
+              }
+            </script>
+
+            <style>
+              #myModal30 {
+                color: gray;
+              }
+            </style>
+
+           <!-- The Modal -->
+<div id="myModal30" class="modal30">
+  <div class="modal30-content">
+  <span class="close30">&times;</span>
+  <b><p class="lead">Direction</p></b>
+    
+            
+  <p> Head northwest toward Jalan Impian Emas 53
+   -60 m</p>
+   <p>Turn left onto Jalan Impian Emas 53
+   -122 m</p>
+  <p>Turn right onto Persiaran Impian Emas
+   -1.04 km</p>
+  <p>Turn right onto Jln Bukit Impian/Persiaran Impian Emas
+   -499 m</p>
+  <p>Turn left onto Jln Bukit Impian
+   -2.45 km</p>
+  <p>Take the ramp to Kuala Lumpur
+   -208 m</p>
+  <p>Merge onto Lebuhraya Utara-Selatan/AH2/E2Toll road
+   -274 km</p>
+  <p>Keep right to continue on Lebuhraya Utara-Selatan/E2Toll road
+   -25.5 km</p>
+  <p>Continue onto Lebuhraya Kuala Lumpur - Seremban/E37Toll road
+   -332 m</p>
+  <p>Keep right to stay on Lebuhraya Kuala Lumpur - Seremban/E37Toll road
+   -7.49 km</p>
+  <p>Keep left at the fork to continue on Jln Sungai Besi/Lebuhraya Kuala Lumpur - Seremban/E37
+   -792 m</p>
+  <p>Continue onto Jln Sungai Besi
+   -1.27 km</p>
+  <p>Take the exit toward Jln. Dewan Bahasa/Istana Negara/Lebuhraya Persekutuan/Petaling Jaya/Dataran Merdeka/Ipoh/Klang
+   -241 m</p>
+  <p>Continue onto Jln Istana
+   -927 m</p>
+  <p>Keep right to stay on Jln Istana
+   -932 m</p>
+  <p>Continue onto Jln Damansara
+   -2.43 km</p>
+  <p>Continue onto Lebuhraya Sultan Iskandar
+   -555 m</p>
+  <p>Take the Jln. Parlimen exit toward Dataran Merdeka
+   -539 m</p>
+  <p>Keep right at the fork to continue toward Lebuhraya Sultan Iskandar
+   -36 m</p>
+  <p>Turn right
+   -205 m</p>
+   <p>Keep left at the fork, follow signs for Bangsar/K.L. Sentral/Seremban/KLIA and merge onto Lebuhraya Sultan Iskandar
+   -657 m</p>
+   <p>Continue onto Jln Damansara
+   -1.06 km</p>
+  </div>
+  </div>
+  
+  
+  <script>
+  // Get the modal
+  var modal30 = document.getElementById("myModal30");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("trip");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close30")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+  modal30.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+  modal30.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+  if (event.target == modal30) {
+  modal30.style.display = "none";
+  }
+  }
+  
+  </script>
+
+      <style>
+        #myModal1 {
+          color: gray;
+        }
+      </style>
+      
+      <div id="myModal1" class="modal1">
+        <div class="modal1-dialog modal1-lg">
+        <div class="modal1-content">
+          <span class="close1">&times;</span>
+          <b><p class="lead">Charging Stations available along the road</p></b>
+          <p><dfn title="Recommended to charge before starting the trip">EV Charging Station</dfn></p>
+          <p><dfn title="Recommended to charge before starting the trip">*Usually one way trip is sustainable if user start their journey with full enegry</dfn></p>
+          <ul>
+            <dfn title="Recommended to charge before starting the trip">Johor Area</dfn>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take the exit left onto Jalan R&R Skudai</dfn>
+              <ul>
+                <li>chargEV Charging Station</li>
+                <li>Type 2 22 kW (AC Charging)</li>
+                <li>Charging time around an hour plus</li>
+                <br>
+              </ul>
+            </li>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take the exit towards R&R Pagoh</dfn>
+              <ul>
+                <li>Shell Recharge HPC 180 kW DC charging network</li>
+                <li>*Recommendation stop* 180 kW (DC charging)</li>
+                <li>Charging time around 30 minutes</li>
+                <br>
+              </ul>
+            </li>
+            <dfn title="Recommended to charge before starting the trip">Malacca Area</dfn>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take exit 231-Ayer Keroh toward Ayer Keroh/Bandaraya Melaka and into R&R Airkeroh </dfn>
+              <ul>
+                <li>chargEV Charging Station</li>
+                <li>Type 2 22 kW (AC Charging) - 2 Station</li>
+                <li>Charging time around an hour plus</li>
+                <br>
+              </ul>
+            </li>
+            <dfn title="Recommended to charge before starting the trip">Negeri Sembilan Area</dfn>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take exit to the Petronas Service Station, KM 225, Pedas Linggi Layby, Plus Highway North Bound</dfn>
+              <ul>
+                <li>chargEV Charging Station</li>
+                <li>Type 2 22 kW (AC Charging)</li>
+                <li>Charging time around an hour plus</li>
+                <br>
+              </ul>
+            </li>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take exit on 219-Port Dickson toward Port Dickson/Seremban and continue on Jalan Rasah/Route 53 to your destination in Mambau</dfn>
+              <ul>
+                <li>chargEV Charging Station</li>
+                <li>Type 2 22 kW (AC Charging)</li>
+                <li>Charging time around an hour plus</li>
+                <br>
+              </ul>
+            </li>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take exit to the Petron RSA Serembam</dfn>
+              <ul>
+                <li>chargEV Charging Station</li>
+                <li>Type 2 22 kW (AC Charging)</li>
+                <li>Charging time around an hour plus</li>
+                <br>
+              </ul>
+            </li>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take exit towards R&R Serembam North bound</dfn>
+              <ul>
+                <li>Shell Recharge HPC 180 kW DC charging network</li>
+                <li>*Recommendation stop* 180 kW (DC charging)</li>
+                <li>Charging time around 30 minutes</li>
+                <br>
+              </ul>
+            </li>
+            <dfn title="Recommended to charge before starting the trip">Kuala Lumpur Area</dfn>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take the exit to Taman Teknologi Malaysia, Kuala Lumpur. Exit from Lebuhraya Kuala Lumpur - Seremban/E37</dfn>
+              <ul>
+                <li>chargEV Charging Station</li>
+                <li>Type 2 22 kW (AC Charging)</li>
+                <li>Charging time around an hour plus</li>
+                <br>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        </div>
+      
+    </div>
+      <script>
+        // Get the modal
+        var modal1 = document.getElementById("myModal1");
+    
+        // Get the button that opens the modal
+        var btn = document.getElementById("cs");
+    
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close1")[0];
+    
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal1.style.display = "block";
+        }
+    
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal1.style.display = "none";
+        }
+    
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal1) {
+            modal1.style.display = "none";
+          }
+        }
+
+        
+      </script>
+
+      <style>
+        #myModal2 {
+          color: gray;
+        }
+      </style>
+
+      <div id="myModal2" class="modal2">
+        <div class="modal2-content">
+          <span class="close2">&times;</span>
+          <b><p class="lead">Estimated travel time for each area</p></b>
+          <p>Johor To Melaka [Lebuhraya Utara-Selatan/AH2/E2]: 2 hr 12 min</p>
+          <p>Melaka [Lebuhraya Utara-Selatan/AH2/E2] To Seremban [Lebuhraya Utara-Selatan/AH2/E2]: 42 min</p>
+          <p>Seremban [Lebuhraya Utara-Selatan/AH2/E2] To Kuala Lumpur: 53 min</p>
+        </div>
+      </div>
+
+      <script>
+      // Get the modal
+      var modal2 = document.getElementById("myModal2");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("dis");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close2")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal2.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal2.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal2) {
+          modal2.style.display = "none";
+        }
+      }
+
+      
+    </script>
+
+<style>
+  #myModal3 {
+    color: gray;
+  }
+</style>
+
+    <div id="myModal3" class="modal3">
+      <div class="modal3-content">
+        <span class="close3">&times;</span>
+        <b><p class="lead">Estimated travel distance between each area</p></b>
+        <p>Johor To Melaka [Lebuhraya Utara-Selatan/AH2/E2]: 203km</p>
+        <p>Melaka [Lebuhraya Utara-Selatan/AH2/E2] To Seremban [Lebuhraya Utara-Selatan/AH2/E2]: 66.5km</p>
+        <p>Seremban [Lebuhraya Utara-Selatan/AH2/E2] To Kuala Lumpur: 67km</p>
+      </div>
+    </div>
+
+    <script>
+      // Get the modal
+      var modal3 = document.getElementById("myModal3");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("dis1");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close3")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal3.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal3.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal3) {
+          modal3.style.display = "none";
+        }
+      }
+
+      
+    </script>
+
+<style>
+  #myModal4 {
+    color: gray;
+  }
+</style>
+
+<!-- The Modal -->
+<div id="myModal4" class="modal4">
+  <div class="modal4-content">
+    <span class="close4">&times;</span>
+    <b><p class="lead">Nearby Charging Station</p></b>
+    <p>Recommended charging before heading for your adventure</p>
+    <div class="ratio ratio-16x9">
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1AJmTkPPHx3FfruGYEoKtk5SMh_5wp6Y&z=10&ehbc=2E312F" width="640" height="480"></iframe>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Get the modal
+  var modal4 = document.getElementById("myModal4");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("cs1");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close4")[0];
+
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal4.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal4.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal4) {
+      modal4.style.display = "none";
+    }
+  }
+
+  
+</script>
+
+<style>
+  #myModal5 {
+    color: gray;
+  }
+</style>
+
+ <!-- modal -->
+ <div id="myModal5" class="modal5">
+  <div class="modal5-dialog modal5-lg">
+  <div class="modal5-content">
+    <span class="close5">&times;</span>
+    <b><p class="lead">Direction</p></b>
+    
+     <p> Follow Lebuhraya Utara - Selatan/E1 to Lebuhraya Tun Dr. Lim Chong Eu/Route 3113 in Gelugor</p>
+      <p>At the roundabout, take the 1st exit onto Jln Syed Putra
+        -650 m</p>
+    <p>Take the exit toward K. L. Sentral/Lebuhraya Mahameru/Ipoh/Kuantan
+      -240 m</p>
+    <p>Merge onto Jln Damansara
+      -2.2 km</p>
+    <p>Use the 2nd from the left lane to take the Jalan Duta exit toward Ipoh/Klang
+      -550 m</p>
+    <p>Continue onto Jln Tuanku Abdul Halim
+      -400 m
+      </p>
+    <p>Keep right to stay on Jln Tuanku Abdul Halim
+      -1.6 km</p>
+    <p>Use the right 3 lanes to take the E1/Lebuhraya Utara Selatan exit toward Ipoh/KLIA/Shah Alam/Lebuhraya NKVE
+      Toll road
+     -350 m</p>
+    <p>Continue onto Lebuhraya Utara - Selatan/E1
+      Toll road
+     -6.5 km</p>
+    <p>Keep right to stay on Lebuhraya Utara - Selatan/E1
+      Toll road
+     -134 km</p>
+    <p>Keep right to continue on Lebuhraya Utara - Selatan/AH2/E1
+      Toll road
+     -187 km</p>
+    <p>Take exit 161 toward George Town
+      -1.4 km</p>
+    <p>Continue onto Jambatan Pulau Pinang/E36
+      - 10.2km
+    </p>
+    <p>Continue on Lebuhraya Tun Dr. Lim Chong Eu/Route 3113. Drive to Jalan Macalister in George Town
+      -6.9 km</p>
+    <p>Merge onto Lebuhraya Tun Dr. Lim Chong Eu/Route 3113
+      -1.8 km</p>
+    <p>Continue straight to stay on Lebuhraya Tun Dr. Lim Chong Eu/Route 3113
+      -4.3 km</p>
+    <p>Turn left onto Jalan Magazine
+      -750 m</p>
+    <p>Continue onto Jalan Macalister
+      Destination will be on the right
+     -34 m</p>
+    
+      
+    </div>
+  </div>
+</div>
+
+      <script>
+        // Get the modal
+        var modal5 = document.getElementById("myModal5");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("trip2");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close5")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal5.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal5.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal5) {
+            modal5.style.display = "none";
+          }
+        }
+      </script>
+
+      <style>
+        #myModal6 {
+          color: gray;
+        }
+      </style>
+
+      <!--KL-to-Penang-->
+      <div id="myModal6" class="modal6">
+        <div class="modal6-dialog modal6-lg">
+        <div class="modal6-content">
+          <span class="close6">&times;</span>
+          <b><p class="lead">Charging Stations available along the road</p></b>
+          <p><dfn title="Recommended to charge before starting the trip">EV Charging Station</dfn></p>
+          <p><dfn title="Recommended to charge before starting the trip">*Usually one way trip is sustainable if user start their journey with full enegry</dfn></p>
+          <ul>
+            <dfn title="Recommended to charge before starting the trip">Perak Area</dfn>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Keep right to continue on Lebuhraya Utara - Selatan/AH2/E1 and take exit to Shell RTC Perak Rest Area</dfn>
+              <ul>
+                <li>Shell Recharge HPC 180 kW DC charging network</li>
+                <li>*Recommendation stop* 180 kW (DC charging)</li>
+                <li>Charging time around 30 minutes</li>
+                <br>
+              </ul>
+            </li>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Keep right to continue on Lebuhraya Utara - Selatan/AH2/E1 and take exit to Petronas Hentian Sebelah Simpang Pulai</dfn>
+              <ul>
+                <li>chargEV Charging Station</li>
+                <li>Type 2 22 kW (AC Charging)</li>
+                <li>Charging time around an hour plus</li>
+                <br>
+              </ul>
+            </li>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take exit toward E1 Lebuhraya Utara Selatan and continue to Petronas R&R Sungai Perak Northbound </dfn>
+              <ul>
+                <li>chargEV Charging Station</li>
+                <li>Type 2 22 kW (AC Charging)</li>
+                <li>Charging time around an hour plus</li>
+                <br>
+              </ul>
+            </li>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take exit to the Petron Semanggol NORTH BOUND</dfn>
+              <ul>
+                <li>chargEV Charging Station</li>
+                <li>Type 2 22 kW (AC Charging)</li>
+                <li>Charging time around an hour plus</li>
+                <br>
+              </ul>
+            </li>
+            <dfn title="Recommended to charge before starting the trip">Penang Area</dfn>
+            <li>
+              <dfn title="Recommended to charge before starting the trip">Take exit 160-Juru toward Juru/Bkt. Mertajam and continue on Jalan Kebun Nenas to your destination in Bukit Tengah</dfn>
+              <ul>
+                <li>chargEV Charging Station</li>
+                <li>Type 2 22 kW (AC Charging)</li>
+                <li>CHAdeMO 30 kW </li>
+                <li>CCS 30 kW </li>
+                <li>Charging time around an hour plus</li>
+                <br>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <script>
+        // Get the modal
+        var modal6 = document.getElementById("myModal6");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("cs2");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close6")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal6.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal6.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal6) {
+            modal6.style.display = "none";
+          }
+        }
+
+        
+      </script>
+
+      <style>
+        #myModal7 {
+          color: gray;
+        }
+      </style>
+
+      <div id="myModal7" class="modal7">
+      <div class="modal7-content">
+      <span class="close7">&times;</span>
+      <b><p class="lead">Estimated travel time for each area</p></b>
+      <p>Kuala Lumpur To Ipoh (Keep right to continue on Lebuhraya Utara - Selatan/AH2/E1): 2 hr 10 minutes</p>
+      <p>Ipoh To Georgetown: 1hr 50 minutes</p>
+      </div>
+      </div>
+
+      <script>
+      // Get the modal
+      var modal7 = document.getElementById("myModal7");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("dis2");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close7")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+      modal7.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+      modal7.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+      if (event.target == modal7) {
+      modal7.style.display = "none";
+      }
+      }
+
+
+      </script>
+
+      <style>
+        #myModal8 {
+          color: gray;
+        }
+      </style>
+
+      <div id="myModal8" class="modal8">
+      <div class="modal8-content">
+      <span class="close8">&times;</span>
+      <b><p class="lead">Estimated travel distance between each area</p></b>
+      <p>Kuala Lumpur To Ipoh (Keep right to continue on Lebuhraya Utara - Selatan/AH2/E1): 197km</p>
+      <p>Ipoh To Georgetown: 160km</p>
+      </div>
+      </div>
+
+      <script>
+      // Get the modal
+      var modal8 = document.getElementById("myModal8");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("dis3");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close8")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+      modal8.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+      modal8.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+      if (event.target == modal8) {
+      modal8.style.display = "none";
+      }
+      }
+
+
+      </script>
+
+      <style>
+        #myModal9 {
+          color: gray;
+        }
+      </style>
+
+      <!-- The Modal -->
+      <div id="myModal9" class="modal9">
+      <div class="modal9-content">
+      <span class="close9">&times;</span>
+      <b><p class="lead">Nearby Charging Station</p></b>
+      <p>Recommended charging before heading for your adventure</p>
+      <div class="ratio ratio-16x9">
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=17Y6VeLoDJtFR6qZff9xSTK-1tBdBTXc&z=13&ehbc=2E312F" width="640" height="480"></iframe>
+      </div>
+      </div>
+      </div>
+
+      <script>
+      // Get the modal
+      var modal9 = document.getElementById("myModal9");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("cs3");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close9")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+      modal9.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+      modal9.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+      if (event.target == modal9) {
+      modal9.style.display = "none";
+      }
+      }
+      </script>
+
+      <!-- 
+      <div class="formulaModal fade" id="formulaModal" tabindex="-1" role="dialog" aria-labelledby="formulaModalLabel" aria-hidden="true">
+        <div class="formulaModal-dialog" role="document">
+          <div class="formulaModal-content">
+            <div class="formulaModal-header">
+              <h5 class="formulaModal-title" id="formulaModalLabel">Formula</h5>
+              <button type="button" class="closeFormula" data-dismiss="formulaModal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="formulaModal-body">
+              //Your formula here 
+              1+1=2
+            </div>
+          </div>
+        </div>
+      </div>
+     -->
+      <script>
+      
+      // Get the modal
+      //var formulaModal = document.getElementById("formulaModal");
+
+      // Get the button that opens the modal
+      //var btn = document.querySelector("f1");
+
+      // Get the <span> element that closes the modal
+      //var span = document.getElementsByClassName("closeFormula")[0];
+
+      // When the user clicks the button, open the modal 
+      //btn.onclick = function() {
+       // formulaModal.style.display = "block";
+     // }
+
+      // When the user clicks on <span> (x), close the modal
+      //span.onclick = function() {
+       // formulaModal.style.display = "none";
+      //}
+
+      // When the user clicks anywhere outside of the modal, close it
+      //window.onclick = function(event) {
+       // if (event.target == formulaModal) {
+        //  formulaModal.style.display = "none";
+       // }
+      //}
+
+
+      </script>
+
+      <style>
+        #myModal10 {
+          color: gray;
+        }
+      </style>
+
+      <!-- The Modal -->
+      <div id="myModal10" class="modal10">
+      <div class="modal10-content">
+      <span class="close10">&times;</span>
+      <h5>Formula</h5>
+      <p>Distance = 336.5 km</p>
+      <p>Battery Capacity = 57.5 kWh</p>
+      <p>Range = 151 km</p>
+      <p>Battery Percentage = 100%</p>
+      <p>Speed = 110 km/hr</p>
+      <p>Charge time = 30 minutes</p>
+      
+      <p>Trip time:<br>
+      The trip time is calculated as the total distance divided by the average speed.<br>
+      In this case, 336.5 km / 110 km/hr = 3.05 hours (approx. 3 hours).</p>
+      
+      <p>Current battery range:<br>
+      The current battery range is calculated as the range of the battery multiplied by the battery capacity (in kWh) and the battery percentage.<br>
+      In this case, 151 km * 57.5 kWh * 100% = 168 km.</p>
+      
+      <p>Number of charging stops:<br>
+      The number of charging stops is calculated by dividing the total distance by the current battery range and rounding up to the nearest whole number.<br>
+      In this case, 336.5 km / 168 km = 2, rounded up to the nearest whole number is 2.</p>
+      
+      <p>Total time including charging stops:<br>
+      The total time including charging stops is calculated by adding the trip time with the total time spent on charging.<br>
+      In this case, 3 hours + (2 * 30 minutes / 60 minutes) = 3 hours + 0.5 hours = 3.5 hours.</p>
+      </div>
+      </div>
+      
+
+      <script>
+      // Get the modal
+      var modal10 = document.getElementById("myModal10");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("f1");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close10")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+      modal10.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+      modal10.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+      if (event.target == modal10) {
+      modal10.style.display = "none";
+      }
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal10) {
+          modal10.style.display = "none";
+        }
+      }
+      </script>
+
+      <style>
+        #myModal11 {
+          color: gray;
+        }
+      </style>
+
+      <!-- The Modal -->
+      <div id="myModal11" class="modal11">
+      <div class="modal11-content">
+      <span class="close11">&times;</span>
+      <h5>Formula</h5>
+      <p>Distance = 357 km</p>
+      <p>Battery Capacity = 57.5 kWh</p>
+      <p>Range = 151 km</p>
+      <p>Battery Percentage = 100%</p>
+      <p>Speed = 110 km/hr</p>
+      <p>Charge time = 30 minutes</p>
+
+      <p>Trip time:<br>
+      The trip time is calculated as the total distance divided by the average speed.<br>
+      In this case, 357 km / 110 km/hr = 3.24 hours (approx. 3 hours and 14 minutes).</p>
+
+      <p>Current battery range:<br>
+      The current battery range is calculated as the range of the battery multiplied by the battery capacity (in kWh) and the battery percentage.<br>
+      In this case, 151 km * 57.5 kWh * 100% = 168 km.</p>
+
+      <p>Number of charging stops:<br>
+      The number of charging stops is calculated by dividing the total distance by the current battery range and rounding up to the nearest whole number.<br>
+      In this case, 357 km / 168 km = 2.12, rounded up to the nearest whole number is 3.</p>
+
+      <p>Total time including charging stops:<br>
+      The total time including charging stops is calculated by adding the trip time with the total time spent on charging.<br>
+      In this case, 3 hours and 14 minutes + (3 * 30 minutes / 60 minutes) = 3 hours and 14 minutes + 1.5 hours = 4 hours and 44 minutes.</p>
+      </div>
+      </div>
+
+
+      <script>
+      // Get the modal
+      var modal11 = document.getElementById("myModal11");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("f2");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close11")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+      modal11.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+      modal11.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+      if (event.target == modal11) {
+      modal11.style.display = "none";
+      }
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal11) {
+          modal11.style.display = "none";
+        }
+      }
+      </script>
+
+<style>
+  #myModal12 {
+    color: gray;
+  }
+</style>
+
+<!-- modal -->
+<div id="myModal12" class="modal12">
+<div class="modal12-dialog modal12-lg">
+<div class="modal12-content">
+<span class="close12">&times;</span>
+<b><p class="lead">Vehicle Description</p></b>
+
+<p> Battery Capacity = 57.5 </p>
+<p> Range = 151 </p>
+<p> Battery Percentage = 100%</p>
+<p> Speed = 110</p>
+<p> Charging time =  47 minutes at 50 kW, 30 minutes at 180 kW, and 18 minutes at 350kW</p>
+<p> *Drive up to  384km with a full tank </p>
+
+</div>
+</div>
+</div>
+
+<script>
+// Get the modal
+var modal12 = document.getElementById("myModal12");
+
+// Get the button that opens the modal
+var btn = document.getElementById("car");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close12")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal12.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal12.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal12) {
+modal12.style.display = "none";
+}
+}
+</script>
+
+<style>
+  #myModal13 {
+    color: gray;
+  }
+</style>
+
+<!-- modal -->
+<div id="myModal13" class="modal13">
+<div class="modal13-dialog modal13-lg">
+<div class="modal13-content">
+<span class="close13">&times;</span>
+<b><p class="lead">Vehicle Description</p></b>
+
+<p> Battery Capacity = 57.5 </p>
+<p> Range = 151 </p>
+<p> Battery Percentage = 100%</p>
+<p> Speed = 110</p>
+<p> Charging time = 47 minutes at 50 kW, 30 minutes at 180 kW, and 18 minutes at 350kW</p>
+<p> *Drive up to  384km with a full tank </p>
+
+</div>
+</div>
+</div>
+
+<script>
+// Get the modal
+var modal13 = document.getElementById("myModal13");
+
+// Get the button that opens the modal
+var btn = document.getElementById("car2");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close13")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal13.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal13.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal13) {
+modal13.style.display = "none";
+}
+}
+</script>
+
+<style>
+  #myModal31 {
+    color: gray;
+  }
+</style>
+
+<!-- The Modal -->
+<div id="myModal31" class="modal31">
+<div class="modal31-content">
+<span class="close31">&times;</span>
+<img src="7.png" alt="Modal Image">
+</div>
+</div>
+
+
+<script>
+// Get the modal
+var modal31 = document.getElementById("myModal31");
+
+// Get the button that opens the modal
+var btn = document.getElementById("ug");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close31")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal31.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal31.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal31) {
+modal31.style.display = "none";
+}
+}
+
+</script>
+
+<style>
+  #myModal32 {
+    color: gray;
+  }
+</style>
+
+<!-- The Modal -->
+<div id="myModal32" class="modal32">
+<div class="modal32-content">
+<span class="close32">&times;</span>
+<img src="8.png" alt="Modal Image">
+</div>
+</div>
+
+
+<script>
+// Get the modal
+var modal32 = document.getElementById("myModal32");
+
+// Get the button that opens the modal
+var btn = document.getElementById("cunt");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close32")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal32.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal32.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal32) {
+modal32.style.display = "none";
+}
+}
+
+</script>
+
+<style>
+  #myModal33 {
+    color: gray;
+  }
+</style>
+
+<!-- The Modal -->
+<div id="myModal33" class="modal33">
+<div class="modal33-content">
+<span class="close33">&times;</span>
+<img src="9.png" alt="Modal Image">
+</div>
+</div>
+
+
+<script>
+// Get the modal
+var modal33 = document.getElementById("myModal33");
+
+// Get the button that opens the modal
+var btn = document.getElementById("dead");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close33")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal33.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal33.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal33) {
+modal33.style.display = "none";
+}
+}
+
+</script>
+
+<style>
+  #myModal34 {
+    color: gray;
+  }
+</style>
+
+<!-- The Modal -->
+<div id="myModal34" class="modal34">
+<div class="modal34-content">
+<span class="close34">&times;</span>
+<img src="9.png" alt="Modal Image">
+</div>
+</div>
+
+
+<script>
+// Get the modal
+var modal34 = document.getElementById("myModal34");
+
+// Get the button that opens the modal
+var btn = document.getElementById("dead2");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close34")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal34.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal34.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal34) {
+modal34.style.display = "none";
+}
+}
+
+</script>
+
+      </body>
+      </html>
+
+        </main>
+          
+        <footer class="mt-auto text-white-50">
+          <br>
+            <p>Made by ME</p>
+          </footer>
+        </div>
+        
+
+
+    </body>
+</html>

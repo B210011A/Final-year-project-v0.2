@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="generator" content="">
+        <title>004873007002900120012046</title>
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+
+    
+
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+            <style>
+              .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+              }
+        
+              @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                  font-size: 3.5rem;
+                }
+              }
+        
+              .b-example-divider {
+                height: 3rem;
+                background-color: rgba(0, 0, 0, .1);
+                border: solid rgba(0, 0, 0, .15);
+                border-width: 1px 0;
+                box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+              }
+        
+              .b-example-vr {
+                flex-shrink: 0;
+                width: 1.5rem;
+                height: 100vh;
+              }
+        
+              .bi {
+                vertical-align: -.125em;
+                fill: currentColor;
+              }
+        
+              .nav-scroller {
+                position: relative;
+                z-index: 2;
+                height: 2.75rem;
+                overflow-y: hidden;
+              }
+        
+              .nav-scroller .nav {
+                display: flex;
+                flex-wrap: nowrap;
+                padding-bottom: 1rem;
+                margin-top: -1px;
+                overflow-x: auto;
+                text-align: center;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+              }
+
+              .modal {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    
+
+                    .modal1 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal1-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close1 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close1:hover,
+                    .close1:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+                    
+                    .modal2 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal2-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close2 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close2:hover,
+                    .close2:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                     .modal3 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal3-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close3 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close3:hover,
+                    .close3:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    /* The Close Button */
+                    .close {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close:hover,
+                    .close:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .close1 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close1:hover,
+                    .close1:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .close2 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close2:hover,
+                    .close2:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .close3 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close3:hover,
+                    .close3:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal4 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal4-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    /* Caption of Modal Image */
+                    #caption {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                      text-align: center;
+                      color: #ccc;
+                      padding: 10px 0;
+                      height: 150px;
+                    }
+
+                    /* Add Animation */
+                    .modal4-content, #caption {  
+                      -webkit-animation-name: zoom;
+                      -webkit-animation-duration: 0.6s;
+                      animation-name: zoom;
+                      animation-duration: 0.6s;
+                    }
+
+                    @-webkit-keyframes zoom {
+                      from {-webkit-transform:scale(0)} 
+                      to {-webkit-transform:scale(1)}
+                    }
+
+                    @keyframes zoom {
+                      from {transform:scale(0)} 
+                      to {transform:scale(1)}
+                    }
+
+                    /* The Close Button */
+                    .close4 {
+                      position: absolute;
+                      top: 15px;
+                      right: 35px;
+                      color: #f1f1f1;
+                      font-size: 40px;
+                      font-weight: bold;
+                      transition: 0.3s;
+                    }
+
+                    .close4:hover,
+                    .close4:focus {
+                      color: #bbb;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    /* 100% Image Width on Smaller Screens */
+                    @media only screen and (max-width: 700px){
+                      .modal4-content {
+                        width: 100%;
+                      }
+                    }
+                    .modal30 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal30-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close30 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close30:hover,
+                    .close30:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal10 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal10-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close10 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close10:hover,
+                    .close10:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal12 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal12-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close12 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close12:hover,
+                    .close12:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .modal31 {
+                      display: none; /* Hidden by default */
+                      position: fixed; /* Stay in place */
+                      z-index: 1; /* Sit on top */
+                      padding-top: 100px; /* Location of the box */
+                      left: 0;
+                      top: 0;
+                      width: 100%; /* Full width */
+                      height: 100%; /* Full height */
+                      overflow: auto; /* Enable scroll if needed */
+                      background-color: rgb(0,0,0); /* Fallback color */
+                      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+
+                    /* Modal Content (image) */
+                    .modal31-content {
+                      margin: auto;
+                      display: block;
+                      width: 80%;
+                      max-width: 700px;
+                    }
+
+                    .close31 {
+                      color: #aaa;
+                      float: right;
+                      font-size: 28px;
+                      font-weight: bold;
+                    }
+
+                    .close31:hover,
+                    .close31:focus {
+                      color: black;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+              
+
+            </style>
+
+        <link href="cover.css" rel="stylessheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </head>
+    <body class="d-flex h-100 text-center text-bg-dark">
+
+    
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="SMART-1.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-stripe" viewBox="0 0 16 16">
+                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm6.226 5.385c-.584 0-.937.164-.937.593 0 .468.607.674 1.36.93 1.228.415 2.844.963 2.851 2.993C11.5 11.868 9.924 13 7.63 13a7.662 7.662 0 0 1-3.009-.626V9.758c.926.506 2.095.88 3.01.88.617 0 1.058-.165 1.058-.671 0-.518-.658-.755-1.453-1.041C6.026 8.49 4.5 7.94 4.5 6.11 4.5 4.165 5.988 3 8.226 3a7.29 7.29 0 0 1 2.734.505v2.583c-.838-.45-1.896-.703-2.734-.703Z"/>
+                      </svg>
+                  <span class="float-md-start mb-0"> SMART</span>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              
+                </a>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link fw-bold py-1 link-light" aria-current="page">Home</a></li>
+                    <li><a href="features.html" class="nav-link fw-bold py-1 link-light" padding-left: 20px;
+                        padding-right: 20px;> Features</a></li>
+                    <li><a href="about.html" class="nav-link fw-bold py-1 link-light"> About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold py-1 link-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          more features
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="planned.html">Planned Trip</a></li>
+                          <li><a class="dropdown-item" href="sub.html">Subscription</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+              
+                  </ul>
+                  
+                </nav>
+              </header>
+        
+      
+        <main class="px-3">
+            <div id="ug">
+            <h1>Planned Trip</h1>
+            </div>
+            <p class="lead"></p>
+           
+            <p class="lead">
+               
+            </p>
+            <div class="container">
+              <div class="row"style="border: 3px solid whitesmoke;border-radius: 15px;">
+                <div class="col-sm-9">
+                  <div class="ratio ratio-16x9">
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Klj5o7KdOqeLq04S8OkgDati1Ek0pj8&ehbc=2E312F" title="Map" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="form-control border-dark" style="position:relative;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);">
+                    <p class="lead">
+                      <div id="trip">
+                        <h6>Trip : Johor to KL</h6><br>
+                      </div>
+                      <div id="dis">
+                        <h6>Estimated Time : 3hr 47min</h6><br>
+                      </div>
+                      <div id="dis1">
+                        <h6>Estimated travel distance : 336.5km</h6><br>
+                      </div>
+                      <div id="car">
+                      <h6>Vehicle Type: Hyundai IONIQ Electric</h6><br>
+                      </div>
+                      <h6>Connnector Type : Type 2 / CCS/SAE</h6><br>
+                      <div id="cs">
+                        <h6>Charging Stations available</h6><br>
+                      </div>
+                        <div id="cs1">
+                            <h6>Recommended charging first&nbsp;
+                            <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-half" viewBox="0 0 16 16">
+                            <path d="M2 6h5v4H2V6z"/>
+                            <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z"/>
+                            </svg>
+                            </h6><br>
+                        </div>
+                        <div id="f1">
+                          <h6>Formula &nbsp; <button type="button" class="btn btn-circle" data-toggle="modal" data-target="#formulaModal">?</button></h6>
+                        </div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row" id="outputDiv" style="border: 3px solid whitesmoke;border-radius: 15px; margin-top:2%;">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-danger me-md-2" onclick="deleteFunction();">X</button>
+                </div>
+                
+                  <div class="col-sm-9">
+                    <div class="ratio ratio-16x9">
+                      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Klj5o7KdOqeLq04S8OkgDati1Ek0pj8&ehbc=2E312F" width="480" height="480" title="Map" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="form-control border-dark" style="position:relative;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);">
+                    
+                <p>Distance: <span id="distance"></span></p>
+                <!--<p>Vehicle Range: <span id="result"></span></p>-->         
+                <p>Trip time: <span id="trip_time"></span></p>
+                <p>Number of charging stops: <span id="num_stops"></span></p>
+                <p>Cost of charging: <span id="cost"></span></p>
+                <script> 
+                  // Get saved results from localStorage
+                  var distance = localStorage.getItem("distance");
+                  //var range_speed = document.getElementById("range_speed").value;
+                  //var range_speed_array = range_speed.split(",");
+                  //var range = range_speed_array[0];
+                  //var WhPerKM = range_speed_array[1];
+                  var tripTime = localStorage.getItem("tripTime");
+                  var numStops = localStorage.getItem("numStops");
+                  var cost = localStorage.getItem("cost");
+
+                  // Insert saved results into page
+                  document.getElementById("distance").innerHTML = distance + " km";
+                  //document.getElementById("result").innerHTML = "Range: " + range + " kWh, WhPerKM: " + WhPerKM;
+                  document.getElementById("trip_time").innerHTML = tripTime + " hours";
+                  document.getElementById("num_stops").innerHTML = numStops;
+                  document.getElementById("cost").innerHTML = "RM "+ cost;
+                </script>
+              </div>
+              </div>
+              
+              </div>
+        </main>
+           
+        <footer class="mt-auto text-white-50">
+            <p>Made by ME</p>
+          </footer>
+        </div>
+       <script>
+          $(document).ready(function(){
+            $('#outputDiv').show();
+
+            if(localStorage.length==0){
+              $('#outputDiv').hide();
+            }else{
+              $('#outputDiv').show();
+            }
+
+          });
+          function deleteFunction(){
+            localStorage.clear();
+            $('#outputDiv').hide();
+          }
+       </script> 
+
+<style>
+  #myModal30 {
+    color: gray;
+  }
+</style>
+
+<!-- The Modal -->
+<div id="myModal30" class="modal30">
+<div class="modal30-content">
+<span class="close30">&times;</span>
+<b><p class="lead">Direction</p></b>
+
+
+<p> Head northwest toward Jalan Impian Emas 53
+-60 m</p>
+<p>Turn left onto Jalan Impian Emas 53
+-122 m</p>
+<p>Turn right onto Persiaran Impian Emas
+-1.04 km</p>
+<p>Turn right onto Jln Bukit Impian/Persiaran Impian Emas
+-499 m</p>
+<p>Turn left onto Jln Bukit Impian
+-2.45 km</p>
+<p>Take the ramp to Kuala Lumpur
+-208 m</p>
+<p>Merge onto Lebuhraya Utara-Selatan/AH2/E2Toll road
+-274 km</p>
+<p>Keep right to continue on Lebuhraya Utara-Selatan/E2Toll road
+-25.5 km</p>
+<p>Continue onto Lebuhraya Kuala Lumpur - Seremban/E37Toll road
+-332 m</p>
+<p>Keep right to stay on Lebuhraya Kuala Lumpur - Seremban/E37Toll road
+-7.49 km</p>
+<p>Keep left at the fork to continue on Jln Sungai Besi/Lebuhraya Kuala Lumpur - Seremban/E37
+-792 m</p>
+<p>Continue onto Jln Sungai Besi
+-1.27 km</p>
+<p>Take the exit toward Jln. Dewan Bahasa/Istana Negara/Lebuhraya Persekutuan/Petaling Jaya/Dataran Merdeka/Ipoh/Klang
+-241 m</p>
+<p>Continue onto Jln Istana
+-927 m</p>
+<p>Keep right to stay on Jln Istana
+-932 m</p>
+<p>Continue onto Jln Damansara
+-2.43 km</p>
+<p>Continue onto Lebuhraya Sultan Iskandar
+-555 m</p>
+<p>Take the Jln. Parlimen exit toward Dataran Merdeka
+-539 m</p>
+<p>Keep right at the fork to continue toward Lebuhraya Sultan Iskandar
+-36 m</p>
+<p>Turn right
+-205 m</p>
+<p>Keep left at the fork, follow signs for Bangsar/K.L. Sentral/Seremban/KLIA and merge onto Lebuhraya Sultan Iskandar
+-657 m</p>
+<p>Continue onto Jln Damansara
+-1.06 km</p>
+</div>
+</div>
+
+
+<script>
+// Get the modal
+var modal30 = document.getElementById("myModal30");
+
+// Get the button that opens the modal
+var btn = document.getElementById("trip");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close30")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal30.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal30.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal30) {
+modal30.style.display = "none";
+}
+}
+
+</script>
+
+<style>
+#myModal1 {
+color: gray;
+}
+</style>
+
+<div id="myModal1" class="modal1">
+<div class="modal1-dialog modal1-lg">
+<div class="modal1-content">
+<span class="close1">&times;</span>
+<b><p class="lead">Charging Stations available along the road</p></b>
+<p><dfn title="Recommended to charge before starting the trip">EV Charging Station</dfn></p>
+<p><dfn title="Recommended to charge before starting the trip">*Usually one way trip is sustainable if user start their journey with full enegry</dfn></p>
+<ul>
+<dfn title="Recommended to charge before starting the trip">Johor Area</dfn>
+<li>
+  <dfn title="Recommended to charge before starting the trip">Take the exit left onto Jalan R&R Skudai</dfn>
+  <ul>
+    <li>chargEV Charging Station</li>
+    <li>Type 2 22 kW (AC Charging)</li>
+    <li>Charging time around an hour plus</li>
+    <br>
+  </ul>
+</li>
+<li>
+  <dfn title="Recommended to charge before starting the trip">Take the exit towards R&R Pagoh</dfn>
+  <ul>
+    <li>Shell Recharge HPC 180 kW DC charging network</li>
+    <li>*Recommendation stop* 180 kW (DC charging)</li>
+    <li>Charging time around 30 minutes</li>
+    <br>
+  </ul>
+</li>
+<dfn title="Recommended to charge before starting the trip">Malacca Area</dfn>
+<li>
+  <dfn title="Recommended to charge before starting the trip">Take exit 231-Ayer Keroh toward Ayer Keroh/Bandaraya Melaka and into R&R Airkeroh </dfn>
+  <ul>
+    <li>chargEV Charging Station</li>
+    <li>Type 2 22 kW (AC Charging) - 2 Station</li>
+    <li>Charging time around an hour plus</li>
+    <br>
+  </ul>
+</li>
+<dfn title="Recommended to charge before starting the trip">Negeri Sembilan Area</dfn>
+<li>
+  <dfn title="Recommended to charge before starting the trip">Take exit to the Petronas Service Station, KM 225, Pedas Linggi Layby, Plus Highway North Bound</dfn>
+  <ul>
+    <li>chargEV Charging Station</li>
+    <li>Type 2 22 kW (AC Charging)</li>
+    <li>Charging time around an hour plus</li>
+    <br>
+  </ul>
+</li>
+<li>
+  <dfn title="Recommended to charge before starting the trip">Take exit on 219-Port Dickson toward Port Dickson/Seremban and continue on Jalan Rasah/Route 53 to your destination in Mambau</dfn>
+  <ul>
+    <li>chargEV Charging Station</li>
+    <li>Type 2 22 kW (AC Charging)</li>
+    <li>Charging time around an hour plus</li>
+    <br>
+  </ul>
+</li>
+<li>
+  <dfn title="Recommended to charge before starting the trip">Take exit to the Petron RSA Serembam</dfn>
+  <ul>
+    <li>chargEV Charging Station</li>
+    <li>Type 2 22 kW (AC Charging)</li>
+    <li>Charging time around an hour plus</li>
+    <br>
+  </ul>
+</li>
+<li>
+  <dfn title="Recommended to charge before starting the trip">Take exit towards R&R Serembam North bound</dfn>
+  <ul>
+    <li>Shell Recharge HPC 180 kW DC charging network</li>
+    <li>*Recommendation stop* 180 kW (DC charging)</li>
+    <li>Charging time around 30 minutes</li>
+    <br>
+  </ul>
+</li>
+<dfn title="Recommended to charge before starting the trip">Kuala Lumpur Area</dfn>
+<li>
+  <dfn title="Recommended to charge before starting the trip">Take the exit to Taman Teknologi Malaysia, Kuala Lumpur. Exit from Lebuhraya Kuala Lumpur - Seremban/E37</dfn>
+  <ul>
+    <li>chargEV Charging Station</li>
+    <li>Type 2 22 kW (AC Charging)</li>
+    <li>Charging time around an hour plus</li>
+    <br>
+  </ul>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+<script>
+// Get the modal
+var modal1 = document.getElementById("myModal1");
+
+// Get the button that opens the modal
+var btn = document.getElementById("cs");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close1")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal1.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal1.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal1) {
+modal1.style.display = "none";
+}
+}
+
+
+</script>
+
+<style>
+#myModal2 {
+color: gray;
+}
+</style>
+
+<div id="myModal2" class="modal2">
+<div class="modal2-content">
+<span class="close2">&times;</span>
+<b><p class="lead">Estimated travel time for each area</p></b>
+<p>Johor To Melaka [Lebuhraya Utara-Selatan/AH2/E2]: 2 hr 12 min</p>
+<p>Melaka [Lebuhraya Utara-Selatan/AH2/E2] To Seremban [Lebuhraya Utara-Selatan/AH2/E2]: 42 min</p>
+<p>Seremban [Lebuhraya Utara-Selatan/AH2/E2] To Kuala Lumpur: 53 min</p>
+</div>
+</div>
+
+<script>
+// Get the modal
+var modal2 = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+var btn = document.getElementById("dis");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal2.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal2.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal2) {
+modal2.style.display = "none";
+}
+}
+
+
+</script>
+
+<style>
+#myModal3 {
+color: gray;
+}
+</style>
+
+<div id="myModal3" class="modal3">
+<div class="modal3-content">
+<span class="close3">&times;</span>
+<b><p class="lead">Estimated travel distance between each area</p></b>
+<p>Johor To Melaka [Lebuhraya Utara-Selatan/AH2/E2]: 203km</p>
+<p>Melaka [Lebuhraya Utara-Selatan/AH2/E2] To Seremban [Lebuhraya Utara-Selatan/AH2/E2]: 66.5km</p>
+<p>Seremban [Lebuhraya Utara-Selatan/AH2/E2] To Kuala Lumpur: 67km</p>
+</div>
+</div>
+
+<script>
+// Get the modal
+var modal3 = document.getElementById("myModal3");
+
+// Get the button that opens the modal
+var btn = document.getElementById("dis1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close3")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal3.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal3.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal3) {
+modal3.style.display = "none";
+}
+}
+
+
+</script>
+
+<style>
+#myModal4 {
+color: gray;
+}
+</style>
+
+<!-- The Modal -->
+<div id="myModal4" class="modal4">
+<div class="modal4-content">
+<span class="close4">&times;</span>
+<b><p class="lead">Nearby Charging Station</p></b>
+<p>Recommended charging before heading for your adventure</p>
+<div class="ratio ratio-16x9">
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1AJmTkPPHx3FfruGYEoKtk5SMh_5wp6Y&z=10&ehbc=2E312F" width="640" height="480"></iframe>
+</div>
+</div>
+</div>
+
+<script>
+// Get the modal
+var modal4 = document.getElementById("myModal4");
+
+// Get the button that opens the modal
+var btn = document.getElementById("cs1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close4")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal4.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal4.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal4) {
+modal4.style.display = "none";
+}
+}
+</script>
+<style>
+        #myModal10 {
+          color: gray;
+        }
+      </style>
+
+      <!-- The Modal -->
+      <div id="myModal10" class="modal10">
+      <div class="modal10-content">
+      <span class="close10">&times;</span>
+      <h5>Formula</h5>
+      <p>Distance = 336.5 km</p>
+      <p>Battery Capacity = 57.5 kWh</p>
+      <p>Range = 151 km</p>
+      <p>Battery Percentage = 100%</p>
+      <p>Speed = 110 km/hr</p>
+      <p>Charge time = 30 minutes</p>
+      
+      <p>Trip time:<br>
+      The trip time is calculated as the total distance divided by the average speed.<br>
+      In this case, 336.5 km / 110 km/hr = 3.05 hours (approx. 3 hours).</p>
+      
+      <p>Current battery range:<br>
+      The current battery range is calculated as the range of the battery multiplied by the battery capacity (in kWh) and the battery percentage.<br>
+      In this case, 151 km * 57.5 kWh * 100% = 168 km.</p>
+      
+      <p>Number of charging stops:<br>
+      The number of charging stops is calculated by dividing the total distance by the current battery range and rounding up to the nearest whole number.<br>
+      In this case, 336.5 km / 168 km = 2, rounded up to the nearest whole number is 2.</p>
+      
+      <p>Total time including charging stops:<br>
+      The total time including charging stops is calculated by adding the trip time with the total time spent on charging.<br>
+      In this case, 3 hours + (2 * 30 minutes / 60 minutes) = 3 hours + 0.5 hours = 3.5 hours.</p>
+      </div>
+      </div>
+      
+
+      <script>
+      // Get the modal
+      var modal10 = document.getElementById("myModal10");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("f1");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close10")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+      modal10.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+      modal10.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+      if (event.target == modal10) {
+      modal10.style.display = "none";
+      }
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal10) {
+          modal10.style.display = "none";
+        }
+      }
+      
+
+
+
+        
+      </script>
+      <style>
+        #myModal12 {
+          color: gray;
+        }
+      </style>
+      
+      <!-- modal -->
+      <div id="myModal12" class="modal12">
+      <div class="modal12-dialog modal12-lg">
+      <div class="modal12-content">
+      <span class="close12">&times;</span>
+      <b><p class="lead">Vehicle Description</p></b>
+      
+      <p> Battery Capacity = 57.5 </p>
+      <p> Range = 151 </p>
+      <p> Battery Percentage = 100%</p>
+      <p> Speed = 110</p>
+      <p> Charging time =  47 minutes at 50 kW, 30 minutes at 180 kW, and 18 minutes at 350kW</p>
+      <p> *Drive up to  384km with a full tank </p>
+      
+      </div>
+      </div>
+      </div>
+      
+      <script>
+      // Get the modal
+      var modal12 = document.getElementById("myModal12");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("car");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close12")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+      modal12.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+      modal12.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+      if (event.target == modal12) {
+      modal12.style.display = "none";
+      }
+      }
+      </script>
+
+<style>
+  #myModal31 {
+    color: gray;
+  }
+</style>
+
+<!-- The Modal -->
+<div id="myModal31" class="modal31">
+<div class="modal31-content">
+<span class="close31">&times;</span>
+<img src="6.png" alt="Modal Image">
+</div>
+</div>
+
+
+<script>
+// Get the modal
+var modal31 = document.getElementById("myModal31");
+
+// Get the button that opens the modal
+var btn = document.getElementById("ug");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close31")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal31.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal31.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal31) {
+modal31.style.display = "none";
+}
+}
+
+</script>
+
+    </body>
+</html>
